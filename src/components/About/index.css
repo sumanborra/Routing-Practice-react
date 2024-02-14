@@ -1,0 +1,37 @@
+/* Write your CSS code here */
+.about-page-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.about-image {
+  height: 400px;
+}
+.about-heading {
+  font-size: 46px;
+  color: #6d396b;
+  font-weight: 800;
+}
+.about-para {
+  font-size: 36px;
+  color: #555555;
+  text-align: center;
+}
+@media screen and (max-width:991px){
+  .about-page-container{
+    padding: 20px;
+  }
+  .about-image{
+    height: 200px;
+
+  }
+  .about-heading{
+    font-size: 28px;
+  }
+  .about-para{
+    font-size: 18px;
+  }
+}

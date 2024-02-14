@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+.home-page-container {
+  background-color: #ffffff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-page-image {
+  text-align: center;
+  height: 600px;
+}
+.heading-home-page {
+  font-family: 'Roboto';
+  font-size: 46px;
+  font-weight: 800;
+  color: #6d396b;
+}
+@media screen and (max-width:991px){
+  .home-page-container{
+    padding: 20px;
+  }
+  .home-page-image{
+    height: 200px;
+  }
+  .heading-home-page{
+    font-size: 28px;
+  }
+}
